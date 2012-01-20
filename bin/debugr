@@ -1,5 +1,4 @@
 require 'debugr'
 
-debugr = Debugr.new
-debugr.init(ARGV)
-debugr.console
+console = Debugr.launch(ARGV)
+console.go
